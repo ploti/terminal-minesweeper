@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# After a successful merge operation, runs `yarn` to ensure dependencies are up-to-date.
+# This is especially useful when we pull the code from a different branch.
+yarn
+

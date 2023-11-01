@@ -1,0 +1,52 @@
+# Artifacts
+build
+coverage
+
+# Node Modules
+node_modules/
+
+# Husky
+.husky/
+
+# Git
+.git/
+
+# Vite's built output
+dist/
+
+# Temporary directories
+.temp/
+
+# Cache directories
+.cache/
+
+# Logs
+*.log
+
+# Lock Files
+yarn.lock
+package-lock.json
+
+# Environment Configurations
+.env
+.env.*
+
+# Editor specific
+.vscode/
+.idea/
+
+# Binary files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.woff
+*.woff2
+*.ttf
+*.eot
+*.otf
+*.ico
+*.pdf
+
+# Ignore TypeScript declaration files
+*.d.ts
