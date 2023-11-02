@@ -5,7 +5,7 @@ module.exports = {
     // Runs ESLint on changes.
     `eslint --fix`,
   ],
-  '*.{md,html,css,json}': 'prettier --write',
+  '*.{md,html,css,json,cjs}': 'prettier --write',
   // Runs tsc on changes to TypeScript files.
   '*.{ts,tsx}': () => 'tsc -p tsconfig.json --noEmit',
 };
